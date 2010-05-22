@@ -9,6 +9,8 @@ Source0:	http://pypi.python.org/packages/source/o/oauth/oauth-%{version}.tar.gz
 # Source0-md5:	30ed3cc8c11d7841a89feab437aabf81
 BuildRequires:	python-devel
 BuildRequires:	python-distribute
+BuildRequires:	python-modules
+BuildRequires:	rpm-pythonprov
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
