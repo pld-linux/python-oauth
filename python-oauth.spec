@@ -1,7 +1,7 @@
 Summary:	Python library for OAuth version 1.0a
 Name:		python-oauth
 Version:	1.0.1
-Release:	1
+Release:	2
 License:	MIT
 Group:		Development/Languages
 URL:		http://code.google.com/p/oauth/
