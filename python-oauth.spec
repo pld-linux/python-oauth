@@ -21,12 +21,11 @@ Python library for OAuth version 1.0a.
 %setup -q -n oauth-%{version}
 
 %build
-python setup.py build
+%py_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
-python setup.py install \
-	--skip-build \
+%py_install \
 	--root $RPM_BUILD_ROOT
 
 %clean
