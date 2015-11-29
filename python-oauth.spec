@@ -5,6 +5,7 @@ Release:	3
 License:	MIT
 Group:		Development/Languages
 URL:		http://code.google.com/p/oauth/
+BuildRequires:	rpmbuild(macros) >= 1.710
 Source0:	http://pypi.python.org/packages/source/o/oauth/oauth-%{version}.tar.gz
 # Source0-md5:	30ed3cc8c11d7841a89feab437aabf81
 BuildRequires:	python-devel
